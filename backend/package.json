@@ -1,7 +1,7 @@
 {
-   "name": "raro-academy-boilerplate",
+   "name": "doceriaApp",
    "version": "0.0.1",
-   "description": "Boilerplate para o projeto final da Raro Academy nodejs.",
+   "description": ".",
    "devDependencies": {
       "@types/axios": "^0.14.0",
       "@types/body-parser": "^1.19.1",
@@ -39,7 +39,7 @@
    "scripts": {
       "build": "tsc",
       "start": "cross-env NODE_ENV=production node dist/index.js",
-      "dev": "ts-node src/index.ts",
+      "dev": "ts-node src/app.ts",
       "lint": "eslint . --ext .ts",
       "lint:fix": "npm run lint -- --fix",
       "test:coverage": "jest --coverage ",

@@ -2,19 +2,22 @@ import { Column, Entity, PrimaryGeneratedColumn} from "typeorm";
 
 @Entity()
 
-export class Client {
+export class Budget {
     @PrimaryGeneratedColumn()
     id: number;
 
     @Column()
-    name: string;
+    date: Date;
 
     @Column()
-    telephone: string;
-
-    @Column( {unique: true, nullable: false})
-    email: string;
+    idClient: number;
+    
+    @Column()
+    idUsuario: number;
 
     @Column()
-    dateOfInclusion: Date;
+    doces: string;
+
+    @Column()
+    valor: string;
 }
