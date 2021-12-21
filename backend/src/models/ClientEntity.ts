@@ -12,7 +12,7 @@ export class Client {
     @Column()
     telephone: string;
 
-    @Column( {unique: true, nullable: false})
+    @Column( {nullable: false} )
     email: string;
 
     @Column()

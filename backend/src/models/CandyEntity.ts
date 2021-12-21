@@ -3,7 +3,7 @@ import { Category } from "../@types/enums/CategoryCandy";
 
 @Entity()
 
-export class Candies {
+export class Candy {
     @PrimaryGeneratedColumn()
     id: number;
 
