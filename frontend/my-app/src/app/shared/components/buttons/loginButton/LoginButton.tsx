@@ -8,6 +8,6 @@ export const LoginButton = (props: any) => {
         history("./pagina-inicial")
     }
     return (
-        <Button onClick={handleClick}> {props.children} </Button>
+        <Button onClick={handleClick}> Botão Login </Button>
     )
 }
